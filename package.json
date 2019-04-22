@@ -1,15 +1,15 @@
 {
   "name": "file-saver",
-  "version": "1.2.0",
+  "version": "1.2.3",
   "description": "An HTML5 saveAs() FileSaver implementation",
   "main": "FileSaver.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "build": "node_modules/.bin/uglifyjs FileSaver.js --mangle --comments /@source/ > FileSaver.min.js"
+    "build": "uglifyjs FileSaver.js --mangle --comments /@source/ > FileSaver.min.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eligrey/FileSaver.js"
+    "url": "git+https://github.com/eligrey/FileSaver.js.git"
   },
   "keywords": [
     "filesaver",
@@ -17,7 +17,7 @@
     "blob"
   ],
   "author": "Eli Grey <me@eligrey.com>",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
     "url": "https://github.com/eligrey/FileSaver.js/issues"
   },
